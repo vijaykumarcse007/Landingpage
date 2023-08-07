@@ -10,9 +10,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const ptag={
-    fontSise:'15px'
-  }
 
   const images = [
     farming5,
